@@ -21,7 +21,7 @@
 
 ## SOFTWARE REQUIREMENTS
 <ul type="square">
-  <li> <b> Operating System : </b> Windows, MacOS (Chưa kiểm tra trên Linux nhưng chắc ok thôi.)</li>
+  <li> <b> Operating System : </b> Windows, MacOS </li>
    &emsp;
   <li> <b> Frontend : </b>
        <p align="left"> 
