@@ -1,4 +1,3 @@
-# Homestay_DALN
 # VIETCHILL - HOTEL BOOKING WEBSITE
 <br>
 
@@ -21,7 +20,7 @@
 
 ## SOFTWARE REQUIREMENTS
 <ul type="square">
-  <li> <b> Operating System : </b> Windows, MacOS </li>
+  <li> <b> Operating System : </b> Windows, MacOS (Chưa kiểm tra trên Linux nhưng chắc ok thôi.)</li>
    &emsp;
   <li> <b> Frontend : </b>
        <p align="left"> 
@@ -61,3 +60,100 @@
   
   <br>
   
+## INSTRUCTIONS
+
+1. Tải và cài đặt <a href="https://www.apachefriends.org/download.html">XAMPP</a>
+
+2. Tải tệp gzip "vietchill" từ github repo này, giải nén và copy toàn bộ thư mục
+
+4. Paste vào thư mục 'htdocs' trong thư mục gốc cài xampp. (Windows: C:\Program Files\xampp\htdocs hoặc MacOS: /Applications/XAMPP)
+
+5. Mở PHPMyAdmin trong trình duyệt `http://localhost/phpmyadmin`
+
+6. Tạo database "vietchill"
+
+7. Import `vietchill.sql` file vào database vừa tạo
+
+8. Paste URL này vào trình duyệt `http://localhost/vietchill/index.php`
+
+9. Để truy cập trang quản lý, sử dụng link tài khoản sau:
+    
+   `http://localhost/vietchill/admin/index.php`
+
+   `username:  holden`
+   
+   `password:  12345`
+   
+<br>
+
+## Hình Minh Hoạ
+
+<details>
+<summary><b> Trang chủ: </b></summary>
+<br>
+
+![index](/images/screenshots/home.png)
+
+![index](/images/screenshots/rooms.png)
+
+![index](/images/screenshots/others.png)
+
+![index](/images/screenshots/contact.png)
+
+![index](/images/screenshots/rooms-details.png)
+
+</details>
+
+<br>
+
+<details>
+<summary><b> Đăng ký: </b></summary>
+<br>
+
+![register](/images/screenshots/register.png)
+
+</details>
+
+<br>
+
+<details>
+<summary><b> Đăng nhập: </b></summary>
+<br>
+
+![login](/images/screenshots/login.png)
+
+</details>
+
+<br>
+
+<details>
+<summary><b> Hồ sơ người dùng: </b></summary>
+<br>
+
+![profile](/images/screenshots/profile.png)
+
+![booking](/images/screenshots/booking.png)
+
+</details>
+
+<br>
+
+<details>
+<summary><b> Admin Dashboard: </b></summary>
+<br>
+
+![admin](/images/screenshots/admin.png)
+
+![admin](/images/screenshots/admin-dashboard.png)
+
+![admin](/images/screenshots/admin-rooms.png)
+
+![admin](/images/screenshots/new-bookings.png)
+
+![admin](/images/screenshots/page-setting.png)
+
+</details>
+
+## References
+
+<a id="reference" href="https://github.com/tj-webdev/Hotel-Booking-Website-Assets"> Hotel-Booking-Website-Assets </a>
